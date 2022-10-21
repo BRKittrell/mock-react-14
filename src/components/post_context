@@ -1,0 +1,18 @@
+import {useState, createContext} from "react"
+
+const postContext = createContext();
+
+export const PostProvider = ({children}) =>{
+    const [singlePost, setSinglePost] = useState("");
+}
+
+const togglePosts = () => {
+    setSinglePost("");
+}
+
+return (
+    <PostContext.Provider
+    value={{
+        togglePosts
+    }}
+)

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto+Slab:wght@100;400&family=Skranji&display=swap');
+
+* {
+    
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.listItem {
+    margin: 2rem;
+    border: 3px solid aqua;
+    padding: 1rem;
+    transition: border .5s ease;
+}
+
+.listItem:hover {
+    border: 15px solid aqua;
+    cursor: pointer;
+
+}
+
+#list {
+    display: flex;
+}
+
+#title {
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #333;
+    margin: 1rem;
+}
